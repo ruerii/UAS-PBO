@@ -11,7 +11,7 @@ class Product extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'slug', 'slug', 'status', 'image', 'category_id', 'active'];
+    protected $fillable = ['name', 'slug',  'status', 'category_id', 'active', 'image'];
 
     public function category(): BelongsTo
     {
