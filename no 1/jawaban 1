@@ -14,16 +14,16 @@ ke vscode
 
 ke terminal 
 php artisan make:Model Category -m
-php artisan make:filament-resource Product --generate
+php artisan make:filament-resource Category --generate
 di migrate  -> php artisan migrate
 ke vscode
 
 php artisan make:Model Tag -m
-php artisan make:filament-resource Product --generate
+php artisan make:filament-resource Tag --generate
 di migrate  -> php artisan migrate
 ke vscode
 
 php artisan make:Model User -m
-php artisan make:filament-resource Product --generate
+php artisan make:filament-resource User --generate
 di migrate  -> php artisan migrate
 ke vscode
