@@ -1,1 +1,29 @@
-masuk ke
+di terminal
+
+masuk ke directory cd pbo 
+docker exec -it cr101 bash
+chmod 777 -R storage/*
+
+
+php artisan make filament-user
+isi nama email dan password
+php artisan make:Model Product -m
+php artisan make:filament-resource Product --generate
+di migrate  -> php artisan migrate
+ke vscode
+
+ke terminal 
+php artisan make:Model Category -m
+php artisan make:filament-resource Product --generate
+di migrate  -> php artisan migrate
+ke vscode
+
+php artisan make:Model Tag -m
+php artisan make:filament-resource Product --generate
+di migrate  -> php artisan migrate
+ke vscode
+
+php artisan make:Model User -m
+php artisan make:filament-resource Product --generate
+di migrate  -> php artisan migrate
+ke vscode
